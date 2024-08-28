@@ -1,6 +1,7 @@
 from astropy import units as u
 import numpy as np
 from scipy.integrate import quad
+import pandas as pd
 
 
 def omega_redshift(*,omega_m0,omega_rad0,omega_lambda0,omega_k0):
@@ -12,21 +13,31 @@ def omega_redshift(*,omega_m0,omega_rad0,omega_lambda0,omega_k0):
         return (w_m+w_rad+w_k+w_l)**(-0.5)
     return w_z
 
-def c_h_r_constant(*,h0):
-    c = 299792458*(u.meter/u.second)
-    c = c.to(u.Mpc/u.second)
-    r0 = 6000*(u.Mpc)
-    h0 = h0.to(u.Mpc/(u.second*u.Mpc))
+def c_h_r_constant():
+    c = 300000#*(u.meter/u.second)
+    #c = c.to(u.km/u.second)
+    r0 = 1
+    h0=70#*(u.km/(u.second*u.Mpc))
     return c/(h0*r0)
 
-def xi_z(h0,omega_m0,omega_rad0,omega_lambda0,omega_k0,z):
+def xi_z(omega_m0,omega_rad0,omega_lambda0,omega_k0,z):
     w_z = omega_redshift(
         omega_m0=omega_m0,
         omega_rad0=omega_rad0,
         omega_lambda0=omega_lambda0,
         omega_k0=omega_k0)
     I,err = quad(w_z,0,z)
-    return [c_h_r_constant(h0=h0)*I,c_h_r_constant(h0=h0)*err]
+    return [c_h_r_constant()*I,c_h_r_constant()*err]
 
-h0 = 70*(u.km/(u.second*u.Mpc))
-I,err = xi_z(h0=h0,omega_m0=0.3,omega_lambda0=0.7,omega_rad0=0,omega_k0=0,z=10)
+
+
+
+z_array = np.arange(0,6,0.003)
+xi_array = [xi_z(omega_m0=0.3,omega_lambda0=0.7,omega_rad0=0,omega_k0=0,z=z)[0] for z in z_array]
+xi_array = np.array(xi_array)
+dl_array = xi_array*(1+z_array)
+da_array = xi_array/(1+z_array)
+
+values = {'z':z_array,'xi':xi_array, 'dl':dl_array, 'da':da_array}
+df = pd.DataFrame(values)
+print(df)
