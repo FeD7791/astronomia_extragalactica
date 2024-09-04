@@ -32,7 +32,7 @@ def xi_z(omega_m0,omega_rad0,omega_lambda0,omega_k0,z):
 
 
 
-z_array = np.arange(0,6,0.003)
+z_array = np.arange(0,6,0.001)
 xi_array = [xi_z(omega_m0=0.3,omega_lambda0=0.7,omega_rad0=0,omega_k0=0,z=z)[0] for z in z_array]
 xi_array = np.array(xi_array)
 dl_array = xi_array*(1+z_array)
@@ -40,4 +40,4 @@ da_array = xi_array/(1+z_array)
 
 values = {'z':z_array,'xi':xi_array, 'dl':dl_array, 'da':da_array}
 df = pd.DataFrame(values)
-print(df)
+df.to_csv("data_xi.txt",sep='\t')
