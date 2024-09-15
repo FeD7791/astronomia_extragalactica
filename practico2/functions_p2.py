@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 from astropy.cosmology import FlatLambdaCDM
 from astropy import units as u
+import numpy as np
+from scipy.optimize import curve_fit
 
 def process_table(path_table):
 	df = pd.read_csv(path_table)
@@ -26,7 +28,7 @@ def process_table(path_table):
 
 	df2 = df2.assign(**{
 		'dl':(cosmo.comoving_distance(df2['redshift']).value),
-		'da':(cosmo.angular_diameter_distance(df2['redshift']))*1000
+		'da':(cosmo.angular_diameter_distance(df2['redshift']).value)*1000
 	})
 
 	# 3) Transform r_50 and r_90 to kpc using da
@@ -131,3 +133,17 @@ def process_table(path_table):
 	]]
 	df4 = df3.rename(columns=dict(zip(columns_old,columns)))
 	return df4
+
+
+
+def double_gaussian(x, A1, mu1, sigma1, A2, mu2, sigma2):
+    return (A1 * np.exp((- (x - mu1)**2) / (2 * sigma1**2)) +
+            A2 * np.exp((- (x - mu2)**2)/ (2 * sigma2**2)))
+
+def fitter(x,initial_guess,bins):
+	counts,bins = np.histogram(x,bins=bins)
+	bin_mids = (bins[:-1] + bins[1:]) / 2
+	popt, pcov = curve_fit(double_gaussian, bin_mids, counts, p0=initial_guess)
+	# Extracting the optimal parameters
+	A1, mu1, sigma1, A2, mu2, sigma2 = popt
+	return {'A1':A1,'mu1':mu1,'sigma1':sigma1,'A2':A2,'mu2':mu2,'sigma2':sigma2}
