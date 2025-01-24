@@ -33,6 +33,21 @@
     2K+U=0
   </equation>
 
+  <subsection|Cefeidas>
+
+  <\itemize-dot>
+    <item>Fuente: https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html
+
+    <item>Fuente 2: Libro schneider seccion 2.2.7 Distances of Pulsating
+    Stars.
+  </itemize-dot>
+
+  Cepheids, also called Cepheid Variables, are stars which brigthen and dim
+  periodically. This behavior allows them to be used as cosmic yardsticks out
+  to distances of a few tens of millions of light-years.
+
+  \;
+
   <section|Conocimientos previos Necesarios>
 
   Una vision muy completa sobre radiacion:
@@ -768,6 +783,171 @@
       <item>Las propiedades fisicas pueden variar enormemente. Por ejemplo
       Mag Abs : <math|<around*|[|-8,-23|]>> masa total:
       <math|M\<in\><around*|[|10<rsup|7>,10<rsup|13>|]>M<rsub|\<odot\>>>
+
+      <item>Radio efectivo: <math|r<rsub|eff>=<around*|(|300pc-50kpc|)>> ,
+      Luminosidades: <math|L=<around*|(|10<rsup|8>-10<rsup|12>|)>L<rsub|\<odot\>>>.
+
+      <item>En promedio las galaxias elipticas son las mas masivas viejas y
+      brillantes.
+    </itemize-minus>
+
+    <item>Cinematica:
+
+    <\itemize-minus>
+      <item>Dispersion de las velocidades de las estrellas: 70-350 km/s
+
+      <item>Esto es un valor representativo de lo que sucede dinamicamente,
+      se asume que el sistema esta en equilibrio y el mismo se relaciona con
+      el pozo de potencial (Las velocidades peculiares de las estrellas estan
+      gobernadas por el potencial gravitatorio, si las estrellas no se
+      estuvieran moviendo el sistema colapsaria). El sistema esta entonce
+      soportado por la velocidad de dispersion de las estrellas.
+    </itemize-minus>
+
+    <item>Cinematica de galaxias esprilaes:
+
+    <\itemize-minus>
+      <item>Dominada por la rotacion, las lineas no se ven ensanchadas si no
+      corridas.
+
+      <item>Teorias sobre el origen de los brazos espirales:
+
+      <\itemize-minus>
+        <item>Modelo de ondas de densidad: Los brazos representan regiones de
+        mayor densidad que giran mas despacio que las estrellas y el gas. Los
+        brazos serian la manifestacion de ondas de densidad espirales.
+        Suponen que las estrellas viajan en orbitas ligeramente elipticas y
+        su orientacion varia suave con su distancia al centro, pero se
+        aproximan en ciertas zonas para dar el efecto de brazos. Las onas de
+        densidad generan la SF. A medida que la nube de gas se desplaza hacia
+        la onda de densidad, la densidad de masa local aumenta, entonces es
+        mas probable que la nube colapse (Inestabilidad de Jeans) y formen
+        estrellas al ser arrastradas por los brazos, las nubes chocan,
+        provocan ondas de choque y formacion de estrellas.
+
+        <item>Formacion estelar estocastica - autopropagativa: Este modelo no
+        explica bien las galaxias espirales. En lineas generales dice que si
+        uno tiene SF en una region, este desencadena SF en otras regiones
+        adyacentes, lo cual podria considerarse como un SF \Pauto
+        propagativo\Q. A medida que la galaxia rota da lugar a un patron en
+        espiral. La parte estocastica es porque hay una pequenia probabilidad
+        e SF aleatoria.
+      </itemize-minus>
+    </itemize-minus>
+
+    <item>Enanas:
+
+    <\itemize-minus>
+      <item>Son la mayoria de las galaxias del universo, sin embargo no
+      representan ni la mayoria de luz ni de masa (Barionica y oscura). Una
+      galaxia enana por ejemplo emite de 100 a 1000 menos luz que una galaxia
+      de gran tamanio.
+
+      <item>Se las clasifica en:
+
+      <\itemize-minus>
+        <item>Enanas elipticas\ 
+
+        <item>Enanas espirales
+
+        <item>Enanas irregulares
+      </itemize-minus>
+
+      <item>En general habitan regiones de alta densidad de galaxias como
+      grupos y cumulos. Las galaxias elipticas constituyen el 10% de las
+      galaxias de campo y 40% de las galaxias en cumulos.
+
+      <item>Debido a su baja luminosidad <math|<around*|(|M\<thicksim\>8.6-15.3|)>>
+      no son observables salvo en el grupo local, entonces sabemos que no
+      podemos observar la mayoria de las galaxias por la perdida de
+      luminosidad. La masa no es significativa.
+
+      <item>En general son satelites de galaxias mas masivas siendo acretadas
+      por estas y siendo el alimento principal de materia durante la
+      evolucion. Recuerde que las galaxias evolucionan a traves de Mergers o
+      pasajes con otras galaxias. Estos eventos generan nuevas estrellas.
+
+      <item>Los que se encuentran mas cerca de galaxias mas masivas
+      (satelites) y ya lo han orbitados son en general esferoides, mientras
+      que las que estan mas alejadas o no las han orbitado suelen ser
+      espirales o irregulares.
+
+      <item>Las esferoides enanas (Dsph) son los objetos mas comunes. En un
+      cubo de 1Mpc de radio hay 29 galaxias conocidas, la mitad son dsph.
+
+      <item>Diferencia con los cumulos globulares: Los cumulos globulares no
+      muestran evidencia de materia oscura mientras que las galaxias enanas
+      si.
+
+      <item>Tienen Gran variedad de propiedades, algunas solo estrellas
+      viejas y otras estrellas en edad intermedia o nuevas.
+
+      <item>NO EXISTEN ENANAS ESPIRALES porque no tienen potencial para forma
+      el disco.
+    </itemize-minus>
+
+    <item>Lenticulares SO
+
+    <\itemize-minus>
+      <item>Son un tipo intermedio entre elipticas y espirales (No son un
+      tipo de transicion evolutiva)
+
+      <item>Una lenticular es una eliptica, bulbo, con un disco estelar
+      prominente, pero sin brazos espirales. Sin polvo ni gas en primer orden
+      ni formacion estelar.
+
+      <item>Tambien se observan lenticulares con barras - SB0
+
+      <item>Diferencias:
+
+      <\itemize-minus>
+        <item>Diferencias con las Elipticas: Presentan disco y a veces barra
+
+        <item>Diferencias con las espirales: No tienen gas ni polvo, rotan
+        mas lento y no tienen brazos.
+      </itemize-minus>
+
+      <item>Principalmente tienen estrellas viejas, rojas y pobres en
+      metales.\ 
+
+      <item>Tienen baja rotacion, en concreto tienen una mayor rotacion que
+      las elipticas pero menor que las espirales.
+
+      <item>En general se encuentran en regiones de gran densidad pero no en
+      la zona central, raras pueden encontrarse en zonas de baja densidad. En
+      cumulos estas galaxias conforman hasta el 50%.
+
+      <item>El numero de galaxias lenticulares decae fuertemente con z.
+
+      <item>Dificil diferenciarlas de las elipticas.
+    </itemize-minus>
+
+    <item>Galaxias Peculiares: Estas galaxias son galaxias que no se ajustan
+    razonablemente con alguno de los tipos de la clasificacion de Hubble.
+    Exhiben almenos 2 grandes tipos:
+
+    <\itemize-minus>
+      <item>Interactuantes: Galaxias sin morfologia clasica que estan
+      fuertemente perturbadas por las interacciones con otras galaxias. Las
+      perturbaciones son puramente gravitacionales.
+
+      <\itemize-minus>
+        <item>Luego de las interacciones, los potenciales de cada galaxia se
+        reacomodan y sus tipos morfologicos originales pueden cambiarse.
+
+        <item>En imagenes se ven: puentes, colas. Se ven efectos
+        gravitacionales , demostrados en las simulaciones numericas.
+
+        <item>En el campo tenemos fusiones y mergers. En cumulos solo
+        interacciones rapidas que puede perturbarse.
+      </itemize-minus>
+
+      <item>Activas: Se diferencian por presentar un nucleo activo (AGN) ,
+      por lo tanto gran luminosidad y fuerte emision no termica.
+
+      <item>Muchos tipos pero todos incluidos en el modelo unificado que los
+      presenta como el mismo objeto astrofisico observado desde distintos
+      angulos de vision.
     </itemize-minus>
   </itemize-dot>
 
@@ -1543,46 +1723,47 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|5|8>>
-    <associate|auto-11|<tuple|6|8>>
-    <associate|auto-12|<tuple|6.1|8>>
-    <associate|auto-13|<tuple|7|9>>
-    <associate|auto-14|<tuple|8|9>>
-    <associate|auto-15|<tuple|9|9>>
-    <associate|auto-16|<tuple|10|9>>
-    <associate|auto-17|<tuple|11|9>>
-    <associate|auto-18|<tuple|12|9>>
-    <associate|auto-19|<tuple|13|9>>
+    <associate|auto-10|<tuple|4|8>>
+    <associate|auto-11|<tuple|5|8>>
+    <associate|auto-12|<tuple|6|8>>
+    <associate|auto-13|<tuple|6.1|11>>
+    <associate|auto-14|<tuple|7|11>>
+    <associate|auto-15|<tuple|8|11>>
+    <associate|auto-16|<tuple|9|11>>
+    <associate|auto-17|<tuple|10|11>>
+    <associate|auto-18|<tuple|11|11>>
+    <associate|auto-19|<tuple|12|11>>
     <associate|auto-2|<tuple|1.1|1>>
-    <associate|auto-20|<tuple|14|9>>
-    <associate|auto-21|<tuple|15|9>>
-    <associate|auto-22|<tuple|15.1|9>>
-    <associate|auto-23|<tuple|15.2|14>>
-    <associate|auto-24|<tuple|15.2.1|14>>
-    <associate|auto-25|<tuple|2|15>>
-    <associate|auto-26|<tuple|15.2.2|16>>
-    <associate|auto-27|<tuple|15.2.3|16>>
-    <associate|auto-28|<tuple|15.2.4|17>>
-    <associate|auto-29|<tuple|15.2.5|17>>
+    <associate|auto-20|<tuple|13|11>>
+    <associate|auto-21|<tuple|14|11>>
+    <associate|auto-22|<tuple|15|11>>
+    <associate|auto-23|<tuple|15.1|16>>
+    <associate|auto-24|<tuple|15.2|16>>
+    <associate|auto-25|<tuple|15.2.1|17>>
+    <associate|auto-26|<tuple|2|18>>
+    <associate|auto-27|<tuple|15.2.2|18>>
+    <associate|auto-28|<tuple|15.2.3|19>>
+    <associate|auto-29|<tuple|15.2.4|19>>
     <associate|auto-3|<tuple|1.2|1>>
-    <associate|auto-30|<tuple|15.2.6|17>>
-    <associate|auto-31|<tuple|15.2.7|18>>
-    <associate|auto-32|<tuple|3|18>>
-    <associate|auto-33|<tuple|4|19>>
-    <associate|auto-34|<tuple|5|20>>
-    <associate|auto-35|<tuple|6|20>>
-    <associate|auto-36|<tuple|7|21>>
-    <associate|auto-37|<tuple|8|22>>
-    <associate|auto-38|<tuple|15.2.8|23>>
-    <associate|auto-39|<tuple|15.2.9|23>>
-    <associate|auto-4|<tuple|2|1>>
-    <associate|auto-40|<tuple|15.2.10|23>>
-    <associate|auto-41|<tuple|16|?>>
-    <associate|auto-5|<tuple|2.0.1|1>>
-    <associate|auto-6|<tuple|1|1>>
-    <associate|auto-7|<tuple|3|3>>
-    <associate|auto-8|<tuple|3.1|3>>
-    <associate|auto-9|<tuple|4|8>>
+    <associate|auto-30|<tuple|15.2.5|19>>
+    <associate|auto-31|<tuple|15.2.6|20>>
+    <associate|auto-32|<tuple|15.2.7|20>>
+    <associate|auto-33|<tuple|3|21>>
+    <associate|auto-34|<tuple|4|22>>
+    <associate|auto-35|<tuple|5|22>>
+    <associate|auto-36|<tuple|6|23>>
+    <associate|auto-37|<tuple|7|24>>
+    <associate|auto-38|<tuple|8|25>>
+    <associate|auto-39|<tuple|15.2.8|25>>
+    <associate|auto-4|<tuple|1.3|1>>
+    <associate|auto-40|<tuple|15.2.9|26>>
+    <associate|auto-41|<tuple|15.2.10|26>>
+    <associate|auto-42|<tuple|16|?>>
+    <associate|auto-5|<tuple|2|1>>
+    <associate|auto-6|<tuple|2.0.1|1>>
+    <associate|auto-7|<tuple|1|3>>
+    <associate|auto-8|<tuple|3|3>>
+    <associate|auto-9|<tuple|3.1|8>>
   </collection>
 </references>
 
@@ -1760,6 +1941,10 @@
       <with|mode|<quote|math>|D<rsub|n>-\<sigma\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-40>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|16<space|2spc>Dudas
+      Para resolver> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-41><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
